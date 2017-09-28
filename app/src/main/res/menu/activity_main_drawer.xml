@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_viia_incidente"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Incidentes" />
+
+        <item
+            android:id="@+id/nav_viia_tarea"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tarea" />
+        <item
+            android:id="@+id/nav_viia_checkling"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Checkling" />
+
+        <item
+            android:id="@+id/nav_viia_dashboard"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_viia_reporte"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Reporte" />
+
+    </group>
+
+    <item android:title="-----">
+        <menu>
+            <item
+                android:id="@+id/nav_perfil"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Perfil" />
+            <item
+                android:id="@+id/nav_puntos"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Puntos" />
+
+            <item
+                android:id="@+id/nav_manager"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Manager" />
+
+            <item
+                android:id="@+id/nav_usuarios"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Usuarios" />
+
+            <item
+                android:id="@+id/nav_roles"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Roles" />
+
+
+        </menu>
+    </item>
+
+</menu>
